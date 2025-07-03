@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=BIZ+UDPGothic&family=Bebas+Neue&family=Caveat:wght@400..700&family=Hurricane&family=Merienda:wght@300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&family=Vibur&family=Zen+Old+Mincho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Allan", serif;
+  font-size: 4rem;
+}
+
+.inicio {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+header {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #12bf43;
+}
+
+li {
+  list-style-type: none;
+}
+
+.inicio {
+  text-align: center;
+  padding: 20px;
+}
+
+.lista {
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  padding: 20px;
+  background-color: #0c4050;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  background-color: #3dc2ec;
+  text-align: center;
+}
