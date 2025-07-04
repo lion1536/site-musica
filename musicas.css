@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #333;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -38,6 +42,7 @@ a {
 
 a:hover {
   color: #12bf43;
+  text-decoration: underline;
 }
 
 li {
@@ -63,4 +68,12 @@ li {
 .title {
   background-color: #3dc2ec;
   text-align: center;
+}
+
+nav,
+ul,
+li {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
 }
